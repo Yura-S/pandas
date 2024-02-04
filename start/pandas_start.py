@@ -4,9 +4,10 @@ import pandas as pd
 ######################################################PANDAS VERSION
 print(pd.__version__)
 
-######################################################MAXIMUM SHOWED ROWS / CHANGING IT
+######################################################MAXIMUM SHOWED ROWS(COLUMNS) / CHANGING IT
 print(pd.options.display.max_rows) 
 pd.options.display.max_rows = 1000
+# pd.options.display.max_columns = 1000
 
 ########################################################################################################################SERIES
 ######################################################CREATE SERIES(ONE COLUMN) FROM LIST
